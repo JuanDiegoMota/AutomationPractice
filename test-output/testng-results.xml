@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteForAppTest" duration-ms="11492" started-at="2017-03-03T17:08:08Z" finished-at="2017-03-03T17:08:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11492" started-at="2017-03-03T17:08:08Z" finished-at="2017-03-03T17:08:19Z">
+      <class name="Tests.AppTest">
+        <test-method status="PASS" signature="navigate(java.lang.String)[pri:0, instance:Tests.AppTest@306e95ec]" name="navigate" is-config="true" duration-ms="4968" started-at="2017-03-03T12:08:08Z" finished-at="2017-03-03T12:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="goToLogin()[pri:0, instance:Tests.AppTest@306e95ec]" name="goToLogin" duration-ms="80" started-at="2017-03-03T12:08:13Z" finished-at="2017-03-03T12:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogin -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AppTest@306e95ec]" name="OnFailure" is-config="true" duration-ms="2" started-at="2017-03-03T12:08:13Z" finished-at="2017-03-03T12:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToLogin status=SUCCESS method=AppTest.goToLogin()[pri:0, instance:Tests.AppTest@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="initSession(java.lang.String, java.lang.String)[pri:0, instance:Tests.AppTest@306e95ec]" name="initSession" duration-ms="2090" started-at="2017-03-03T12:08:13Z" finished-at="2017-03-03T12:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helloword@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSession -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AppTest@306e95ec]" name="OnFailure" is-config="true" duration-ms="0" started-at="2017-03-03T12:08:15Z" finished-at="2017-03-03T12:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=initSession status=SUCCESS method=AppTest.initSession(java.lang.String, java.lang.String)[pri:0, instance:Tests.AppTest@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="searchProductInStore(java.lang.String)[pri:0, instance:Tests.AppTest@306e95ec]" name="searchProductInStore" duration-ms="135" started-at="2017-03-03T12:08:15Z" finished-at="2017-03-03T12:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductInStore -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AppTest@306e95ec]" name="OnFailure" is-config="true" duration-ms="0" started-at="2017-03-03T12:08:15Z" finished-at="2017-03-03T12:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProductInStore status=SUCCESS method=AppTest.searchProductInStore(java.lang.String)[pri:0, instance:Tests.AppTest@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="selectProduct()[pri:0, instance:Tests.AppTest@306e95ec]" name="selectProduct" duration-ms="1559" started-at="2017-03-03T12:08:15Z" finished-at="2017-03-03T12:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method status="PASS" signature="buyProduct()[pri:0, instance:Tests.AppTest@306e95ec]" name="buyProduct" duration-ms="2628" started-at="2017-03-03T12:08:17Z" finished-at="2017-03-03T12:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AppTest@306e95ec]" name="OnFailure" is-config="true" duration-ms="0" started-at="2017-03-03T12:08:17Z" finished-at="2017-03-03T12:08:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectProduct status=SUCCESS method=AppTest.selectProduct()[pri:0, instance:Tests.AppTest@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+        <test-method status="PASS" signature="OnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AppTest@306e95ec]" name="OnFailure" is-config="true" duration-ms="0" started-at="2017-03-03T12:08:19Z" finished-at="2017-03-03T12:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyProduct status=SUCCESS method=AppTest.buyProduct()[pri:0, instance:Tests.AppTest@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnFailure -->
+      </class> <!-- Tests.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteForAppTest -->
+</testng-results>
